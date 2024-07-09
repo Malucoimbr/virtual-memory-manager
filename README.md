@@ -5,7 +5,6 @@ Este projeto implementa um gerenciador de memória virtual baseado no exercício
 # Especificações do Projeto
 
 - Memória Física: A memória física possui 128 frames.
-- linguagem: Implementado em C.
 - Compilação: O programa deve ser compilado utilizando make e deve gerar um arquivo executável chamado vm.
 - Validação: Será utilizado o compilador gcc 13.2.0 para validação.
 - Preenchimento de Frames: Os frames na memória física devem ser preenchidos do 0 ao 127. Quando a memória estiver cheia, será aplicado um algoritmo de substituição para identificar qual frame será atualizado.
