@@ -15,9 +15,11 @@ Este projeto implementa um gerenciador de memória virtual baseado no exercício
 
 # Argumentos de Linha de Comando:
 
-O primeiro argumento será um arquivo de endereços lógicos (similar ao address.txt).
-O segundo argumento será o tipo de algoritmo de substituição de página (fifo ou lru).
+O primeiro argumento será um arquivo de endereços lógicos (similar ao address.txt). <br>
+O segundo argumento será o tipo de algoritmo de substituição de página (fifo ou lru). <br>
+
+Exemplo: ./vm address.txt lru ( utilizando o lru neste caso).
 
 # Saída
 
-A saída correta do FIFO está no arquivo correct.txt
+A saída correta do FIFO está no arquivo correct.txt.
